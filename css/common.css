@@ -1,0 +1,50 @@
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+main {
+    flex:1;
+    display:flex;
+    min-height:0;
+}
+.search-result-table-body {
+  min-height: 580px;
+  max-height: 580px;
+  overflow-y: auto;
+}
+#left-container {
+  background-color:#F55353;
+  height:250px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+nav {
+  width:20%;
+  height:auto;
+  overflow:hidden;
+  display:flex;
+}
+article {
+    background:#C0C0C0;
+    width:80%;
+    overflow:auto;
+    padding:10px;
+}
+.navcont {
+    background:#00FF00;
+    width:auto;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+}
